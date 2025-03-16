@@ -25,7 +25,8 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: mysql 
+  name: mysql
+  namespace: expense
 spec:
   selector:  # labels are used to selectors
       app: mysql
