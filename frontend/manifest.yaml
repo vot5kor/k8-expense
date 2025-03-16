@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: vot5kor/frontend:1.1.0
+        image: vot5kor/frontend:1.2.0
         ports:
         - containerPort: 8080
 ---
