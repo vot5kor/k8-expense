@@ -22,7 +22,7 @@ spec:
       - name: nginx
         image: vot5kor/frontend:1.1.0
         ports:
-        - containerport: 8080
+        - containerPort: 8080
 ---
 apiVersion: v1
 kind: Service
